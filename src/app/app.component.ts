@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
+
+import { ParticipanteModel } from './models/participante.model';
+import { ParticipanteService } from './providers/participante.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +9,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  private _participantes: ParticipanteModel[];
+
+  constructor(private _participanteService: ParticipanteService) { }
+
+  ngOnInit() {
+    this._participanteService.getAll().then((participantes: ParticipanteModel[]) => {
+      this._participantes = participantes;
+    });
+  }
+
+  filtrar(filtro: string) {
+    this._participanteService.getByNomeDocumento(filtro).then((participantes: ParticipanteModel[]) => {
+      this._participantes = participantes;
+    });
+  }
 }
