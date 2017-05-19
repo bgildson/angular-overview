@@ -1,4 +1,4 @@
-import { Component, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 import { ParticipanteModel } from '../models/participante.model';
 import { ParticipanteService } from '../providers/participante.service';
