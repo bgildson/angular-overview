@@ -10,5 +10,5 @@ import { ParticipanteModel } from '../models/participante.model';
   `
 })
 export class ParticipantesComponent {
-  @Input() participantes: ParticipanteModel[] = new Array<ParticipanteModel>();
+  @Input() participantes: ParticipanteModel[];
 }
