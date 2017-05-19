@@ -1,5 +1,5 @@
 import { Component, Output, EventEmitter } from '@angular/core';
-import { FormGroup, FormControl } from '@angular/forms';
+import { FormControl } from '@angular/forms';
 import 'rxjs/add/operator/debounceTime';
 
 @Component({
