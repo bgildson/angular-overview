@@ -9,19 +9,19 @@ import { ParticipanteService } from './providers/participante.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  private _participantes: ParticipanteModel[];
+  participantes: ParticipanteModel[];
 
   constructor(private _participanteService: ParticipanteService) { }
 
   ngOnInit() {
     this._participanteService.getAll().then((participantes: ParticipanteModel[]) => {
-      this._participantes = participantes;
+      this.participantes = participantes;
     });
   }
 
   filtrar(filtro: string) {
     this._participanteService.getByNomeDocumento(filtro).then((participantes: ParticipanteModel[]) => {
-      this._participantes = participantes;
+      this.participantes = participantes;
     });
   }
 }

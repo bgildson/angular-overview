@@ -46,7 +46,7 @@ export class ParticipanteCardComponent {
 
   constructor(private participanteService: ParticipanteService) { }
 
-  private toggleCheckin(checkin: boolean) {
+  toggleCheckin(checkin: boolean) {
     if(checkin) {
       this.participanteService.doCheckinById(this.participante.id);
     } else {

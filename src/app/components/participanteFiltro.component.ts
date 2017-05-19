@@ -17,7 +17,7 @@ import 'rxjs/add/operator/debounceTime';
 })
 export class ParticipanteFiltroComponent {
   @Output() changed: EventEmitter<any> = new EventEmitter();
-  private filtro: FormControl = new FormControl();
+  filtro: FormControl = new FormControl();
 
   ngOnInit() {
     this.filtro.valueChanges.debounceTime(500).subscribe((value: string) => {
