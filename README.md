@@ -8,8 +8,9 @@ Talk slides: [Angular Overview](https://docs.google.com/presentation/d/1QNx8SvL6
 
 Application: https://bgildson.github.io/angular-overview
 
-<Center><h3>preview</h3></center>
-<Center>![](Https://media.giphy.com/media/3ohzdJ5cL0YUkFqW7C/giphy.gif)</center>
+<h3>preview</h3>
+
+![](https://media.giphy.com/media/3ohzdJ5cL0YUkFqW7C/giphy.gif)
 
 ##
 
