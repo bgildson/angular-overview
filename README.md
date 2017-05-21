@@ -1,4 +1,17 @@
-# AngularOverview
+# Angular Overview
+
+Application created to exemplify concepts presented in the talk **Angular Overview** in the event **Google I / O Extended - Natal**.
+
+The main functionality of the application is to check participants at an event.
+
+Talk slides: [Angular Overview](https://docs.google.com/presentation/d/1QNx8SvL6lbk2NQZ6iCD_CIyMFvkfPvn5lOcJLSG9xZo/edit?usp=sharing)
+
+Application: https://bgildson.github.io/angular-overview
+
+<Center><h3>preview</h3></center>
+<Center>![](Https://media.giphy.com/media/3ohzdJ5cL0YUkFqW7C/giphy.gif)</center>
+
+##
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.3.
 
@@ -6,22 +19,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
-
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
 
 ## Further help
 
